@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/registerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Register"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="match_parent"
+        android:hint="ID"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+
+        ></EditText>
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+
+        ></EditText>
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:hint="email"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Phone Number"
+
+        ></EditText>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="sign up"
+        android:layout_marginBottom="16dp"
+        >
+
+    </Button>
+
+    ></LinearLayout>
